@@ -1,0 +1,7 @@
+<div>
+  <h2>{{model.name}}</h2>
+  <img src="{{model.image}}" alt="{{model.name}}"><hr>
+  <p>{{model.description}}</p>
+  <h4>${{model.price}}</h4><hr>
+  <button class="btn btn-primary"{{action 'addToCart' model}}>Add to Cart</button>
+</div>
