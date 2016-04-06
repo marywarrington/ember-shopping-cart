@@ -2,26 +2,26 @@
   "0": {
     "name": "Tents",
     "image": "http://www.free-icons-download.net/images/tent-icon-46092.png",
-    "items": {
+    "products": {
         "0": true
       }
   },
   "1" : {
     "name": "Backpacks",
     "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/77371-200.png",
-    "items": {
+    "products": {
       "1": true
       }
     } ,
     "2" : {
     "name": "Climbing",
     "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/27151-200.png",
-    "items": {
+    "products": {
       "2": true
       }
     }
   },
-  "items": {
+  "products": {
     "0" : {
     "name": "Marmot LimeLight 2P Tent",
     "image": "https://www.rei.com/media/product/895809",
