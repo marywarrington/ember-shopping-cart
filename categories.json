@@ -1,11 +1,47 @@
-{ "categories": [{
+{ "categories": {
+  "0": {
     "name": "Tents",
-    "image": "http://www.free-icons-download.net/images/tent-icon-46092.png"
-  },{
+    "image": "http://www.free-icons-download.net/images/tent-icon-46092.png",
+    "items": {
+        "0": true
+      }
+  },
+  "1" : {
     "name": "Backpacks",
-    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/77371-200.png"
-  },{
+    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/77371-200.png",
+    "items": {
+      "1": true
+      }
+    } ,
+    "2" : {
     "name": "Climbing",
-    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/27151-200.png"
-  }]
+    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/27151-200.png",
+    "items": {
+      "2": true
+      }
+    }
+  },
+  "items": {
+    "0" : {
+    "name": "Marmot LimeLight 2P Tent",
+    "image": "https://www.rei.com/media/product/895809",
+    "description": "Limelight 2P tent maximizes livable space with its zone construction. Enjoy light, roomy comfort and 3-season protection on your next night in nature.",
+    "price": 249,
+    "category": "0"
+  },
+  "1" : {
+    "name": "Osprey Atmos 65 AG Pack",
+    "image": "https://www.rei.com/media/product/878451",
+    "description": "Starting with a dreamlike Osprey suspension, this multiday pack carries gear easily in 11 external pockets, enhancing mobility and comfort while toting heavier loads through the backcountry.",
+    "price": 260,
+    "category": "1"
+  },
+  "2" : {
+    "name": "Black Diamond FreeWire Quickdraw Quickpack - 18cm",
+    "image": "https://www.rei.com/media/product/899093",
+    "description": "With 6 light and versatile FreeWire draws, the 18cm Black Diamond FreeWire Quickpack is ideal for the sport climber on a budget.",
+    "price": 85,
+    "category": "2"
+    }
+  }
 }
