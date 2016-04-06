@@ -1,5 +1,6 @@
 Welcome Admin!
 <hr>
-{{#each model as |category|}}
+{{#each model.categories as |category|}}
   {{category.name}}{{new-item save="save" category=category}}
+  {{delete-item product=product}}
 {{/each}}

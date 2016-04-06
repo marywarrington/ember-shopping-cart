@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('product-detail', {path: '/product-detail/:product_id'});
   this.route('about');
   this.route('admin');
+  this.route('delete-item');
 });
 
 export default Router;

@@ -1,0 +1,10 @@
+{{#if deleteItem}}
+  {{#each model.products as |product|}}
+    {{product-tile product = product}}
+    <!-- trying to pass product , todo for thurs -->
+    <button {{action 'delete' product=product}}>Delete</button>
+  {{/each}}
+
+{{else}}
+  <button class="btn btn-danger" {{action 'deleteItem'}} >Delete Item</button>
+{{/if}}
