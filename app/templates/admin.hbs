@@ -1,0 +1,5 @@
+Welcome Admin!
+<hr>
+{{#each model as |category|}}
+  {{category.name}}{{new-item save="save" category=category}}
+{{/each}}

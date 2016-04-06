@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('view-cart');
   this.route('product-detail', {path: '/product-detail/:product_id'});
   this.route('about');
+  this.route('admin');
 });
 
 export default Router;
