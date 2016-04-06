@@ -1,4 +1,4 @@
 <div>
-  <h3>{{category.name}}</h3>
-  <img src="{{category.image}}" alt="{{category.name}}">
+  <h3>{{#link-to 'category' category.id}}{{category.name}}{{/link-to}}</h3>
+  {{#link-to 'category' category.id}}<img src="{{category.image}}" alt="{{category.name}}">{{/link-to}}
 </div>
