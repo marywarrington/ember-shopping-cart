@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('category', {path: '/category/:category_id'});
   this.route('view-cart');
   this.route('product-detail', {path: '/product-detail/:product_id'});
+  this.route('about');
 });
 
 export default Router;

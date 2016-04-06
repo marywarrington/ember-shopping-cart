@@ -1,0 +1,15 @@
+body {
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/12/16/197007/dcb22678e4bef0177420aa22196d540f.jpg");
+}
+
+.jumbotron {
+  font-size: 16px;
+  color: #e6e6e6;
+  background-color: black;
+}
+
+.navbar-brand {
+  padding-right: 30px;
+}
