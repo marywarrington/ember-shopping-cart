@@ -1,0 +1,11 @@
+{ "categories": [{
+    "name": "Tents",
+    "image": "http://www.free-icons-download.net/images/tent-icon-46092.png"
+  },{
+    "name": "Backpacks",
+    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/77371-200.png"
+  },{
+    "name": "Climbing",
+    "image": "https://d30y9cdsu7xlg0.cloudfront.net/png/27151-200.png"
+  }]
+}
