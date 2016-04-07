@@ -1,0 +1,20 @@
+
+{{#if addNewReview}}
+  <h1>New Review</h1>
+    <form>
+      <div class="form-group">
+        <label for="reviewer">Your Name</label>
+        {{input value=reviewer id="reviewer"}}
+      </div>
+
+      <div class="form-group">
+        <label for="review">Your Review</label>
+        {{input value=review id="review"}}
+      </div>
+
+      <button {{action 'save'}}>Save</button>
+    </form>
+
+{{else}}
+  <button {{action 'showReviewForm'}}>New Review</button>
+{{/if}}

@@ -17,6 +17,10 @@ export default Ember.Route.extend({
         return category.save();
       });
       this.transitionTo('category', params.category);
+    },
+    destroyProduct(product) {
+      product.destroyRecord();
+      this.transitionTo('admin');
     }
   }
 });

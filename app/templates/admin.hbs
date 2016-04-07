@@ -2,5 +2,5 @@ Welcome Admin!
 <hr>
 {{#each model.categories as |category|}}
   {{category.name}}{{new-item save="save" category=category}}
-  {{delete-item product=product}}
+  {{delete-item category=category destroyProduct="destroyProduct"}}
 {{/each}}

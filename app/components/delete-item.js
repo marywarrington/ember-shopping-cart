@@ -5,6 +5,9 @@ export default Ember.Component.extend({
   actions: {
     deleteItem() {
       this.set('deleteItem', true);
+    },
+    delete(product) {
+      this.sendAction('destroyProduct', product);
     }
   }
 });

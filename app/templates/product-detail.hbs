@@ -5,3 +5,11 @@
   <h4>${{model.price}}</h4><hr>
   <button class="btn btn-primary"{{action 'addToCart' model}}>Add to Cart</button>
 </div>
+
+<div>
+  <h3>Reviews</h3>
+  {{#each model.reviews as |review|}}
+    {{item-review review=review}}
+  {{/each}}
+  {{new-review save="save" product=model}}
+</div>
