@@ -17,3 +17,7 @@ body {
 #admin {
   float: right;
 }
+
+.small {
+  font-size: 12px;
+}

@@ -1,5 +1,5 @@
 <div>
-  <h2>{{#link-to 'product-detail' product.id}}{{product.name}}{{/link-to}}</h2>
+  <h2>{{#link-to 'product-detail' product.id}}{{product.name}} -- ${{product.price}}{{/link-to}}</h2>
   {{#link-to 'product-detail' product.id}}<img src="{{product.image}}" alt="{{product.name}}">{{/link-to}}
   <hr>
 </div>

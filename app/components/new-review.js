@@ -12,7 +12,7 @@ export default Ember.Component.extend({
         review: this.get('review'),
         product: this.get('product')
       };
-      this.set('addNewReview', false),
+      this.set('addNewReview', false);
       this.sendAction('save', params);
     }
   }
