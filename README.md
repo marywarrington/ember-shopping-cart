@@ -1,7 +1,9 @@
-# Shopping-cart
+# Ember Shopping Cart
+#### _Ember Practice, Week 4 of Epicodus Javascript, 4.6.2016_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### By _**Mary Warrington and Mike Schennum**_
+
+This project is built in Ember and is an ecommerce site. From the admin panel, an admin can manage inventory (add, delete, etc.). From the user side, users can shop and add items to their shopping cart. The cart is not fully functional, nor secure, and does not allow for an actual checkout to occur.
 
 ## Prerequisites
 
@@ -15,39 +17,26 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone` [this repository](https://github.com/marywarrington/ember-restaurant-codereview.git)
 * change into the new directory
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
-* `ember server`
+* `ember s`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+* No Known bugs, but this app is not fully functional.
 
-### Running Tests
+## Contact
 
-* `ember test`
-* `ember test --server`
+_If you have any questions, concerns, or feedback, please contact the author through_ [gitHub](https://github.com/marywarrington/).
 
-### Building
+### License
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+MIT License.
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Mary Warrington and Mike Schennum_**
